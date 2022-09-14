@@ -62,7 +62,8 @@ switch (operacao){
 
     case "0":
     Console.WriteLine("Obrigado, até mais!");
-    Console.ReadKey();
+    Console.WriteLine("Encerrando...");
+    Environment.Exit(0); 
     break;
 
     default:
