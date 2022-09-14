@@ -51,14 +51,14 @@ namespace Calculadora.Models
         {
           double radiano = angulo * Math.PI / 180;
           double coseno = Math.Cos(radiano);
-          Console.WriteLine($"Seno de {angulo} = {Math.Round (coseno, 4)}");
+          Console.WriteLine($"Coseno de {angulo} = {Math.Round (coseno, 4)}");
         }
 
         public void Tangente(double angulo)
         {
           double radiano = angulo * Math.PI / 180;
           double tangente = Math.Tan(radiano);
-          Console.WriteLine($"Seno de {angulo} = { Math.Round (tangente, 4)}");
+          Console.WriteLine($"Tangente de {angulo} = { Math.Round (tangente, 4)}");
         }
 
         //Raiz Quadrada 

@@ -4,10 +4,11 @@ Operacoes calc = new Operacoes();
 double x = 0, y = 0;
 string operacao;
 
-Console.WriteLine ("Digite o primeiro numero: ");
-x = Convert.ToDouble (Console.ReadLine());
-Console.WriteLine("\nSelecione a operação desejada: \n 1(+) --> Soma\n 2(-) --> Subtração\n 3(/) --> Divisão\n 4(*) --> Multiplicação\n 5(^) --> Potência\n 6 --> Funções Trigonométricas\n 7 --> Raiz Quadrada \n\n\n 0 --> Sair");
+Console.WriteLine("\nSelecione a operação desejada: \n 1(+) --> Soma\n 2(-) --> Subtração\n 3(/) --> Divisão\n 4(*) --> Multiplicação\n 5(^) --> Potência\n 6 --> Funções Trigonométricas\n 7 --> Raiz Quadrada \n\n\n 0 --> Sair\n");
 operacao = Console.ReadLine();
+Console.WriteLine ("Digite o um numero: ");
+x = Convert.ToDouble (Console.ReadLine());
+
 
 switch (operacao){
     case "1" or "+":
